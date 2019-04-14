@@ -1,0 +1,173 @@
+body {
+    background-color: #D5DCCF;
+    font-family: 'Oswald', sans-serif;
+  }
+
+.image {
+  background-image: url("https://4.bp.blogspot.com/-KDQIQ6OI_uo/WS6fEcNWMDI/AAAAAAAAA_Y/93PXsg5XENAzFnW81dfqHjkoTUOGuj5vACK4B/s1600/IMG_3341.JPG");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#title {
+  font-size: 42px;
+  position: absolute;
+  top: 130px;
+  left: 180px;
+}
+
+#habitatinfo {
+  display: block;
+  font-size: 30px;
+  position: absolute;
+  left: 180px;
+  top: 530px;
+}
+
+#habitatxt {
+  font-size: 15px;
+  position: absolute;
+  top: 590px;
+  left: 180px;
+  width: 40%;
+
+}
+
+#habitatpic {
+  height: 131%;
+  max-height: 820px;
+  position: absolute;
+  left: 1085px;
+  top: 569px;
+}
+
+#waterpic {
+  width: 40%;
+  max-width: 780px;
+  position: absolute;
+  left: 180px;
+  top: 870px;
+}
+
+#suninfo {
+  font-size: 30px;
+  position: absolute;
+  left: 180px;
+  top: 1450px;
+}
+
+#suntext {
+  font-size: 15px;
+  position: absolute;
+  top: 1510px;
+  left: 180px;
+  width: 40%;
+}
+
+#sunpic {
+  position: absolute;
+  left: 1085px;
+  top: 1479px;
+  width: 620px;
+}
+
+#sunpic2 {
+  position: absolute;
+  top: 1750px;
+  left: 180px;
+  width: 749px;
+}
+
+#waterinfo {
+  font-size: 30px;
+  position: absolute;
+  top: 1925px;
+  left: 1085px;
+}
+
+#watertext {
+  font-size: 15px;
+  position: absolute;
+  top: 1990px;
+  left: 1085px;
+  width: 35%;
+}
+/* MEDIA QUERIES */
+
+@@media only screen and (max-width: 700px) {
+  .image {
+    width: 300px;
+    height:430px;
+    position: absolute;
+    top: 105px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #waterpic {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #habitatpic {
+    height: 350px;
+    position: absolute;
+    left: 180px;
+    top: 1120px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #sunpic2 {
+    position: absolute;
+    left: 180px;
+    top: 1790px;
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #sunpic {
+    position: absolute;
+    left: 180px;
+    top: 2049px;
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #suntext {
+    font-size: 12px;
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  #habitatxt {
+    font-size: 12px;
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  #title {
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 270px;
+    left:180px;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  #waterinfo{
+    position: absolute;
+    top: 2281px;
+    left:180px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #watertext {
+    font-size: 12px;
+    width: 300px;
+    position: absolute;
+    left: 180px;
+    top: 2338px;
+  }
+}
