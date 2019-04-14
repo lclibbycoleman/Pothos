@@ -2,6 +2,10 @@ body {
     background-color: #D5DCCF;
     font-family: 'Oswald', sans-serif;
   }
+hr {
+  border: 0.5px solid #416138;
+  margin-top: 30px;
+}
 
 .image {
   background-image: url("https://4.bp.blogspot.com/-KDQIQ6OI_uo/WS6fEcNWMDI/AAAAAAAAA_Y/93PXsg5XENAzFnW81dfqHjkoTUOGuj5vACK4B/s1600/IMG_3341.JPG");
@@ -9,6 +13,7 @@ body {
   height: 500px;
   background-repeat: no-repeat;
   background-position: center top;
+  margin-bottom: 30px;
 }
 
 #title {
@@ -18,94 +23,92 @@ body {
   left: 180px;
 }
 
-#habitatinfo {
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+.content-left {
+  width: 50%;
+  display: inline-block;
+  margin-left: -2px;
+  box-sizing: border-box;
+  padding-right: 15px;
+  vertical-align: top;
+}
+.content-right {
+  width: 50%;
+  display: inline-block;
+  margin-right: -2px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  float: right;
+}
+
+#habitat-title {
+  margin-top: 80px;
   display: block;
   font-size: 30px;
-  position: absolute;
-  left: 180px;
-  top: 530px;
 }
 
-#habitatxt {
+#habitat-txt {
   font-size: 15px;
-  position: absolute;
-  top: 590px;
-  left: 180px;
-  width: 40%;
-
 }
 
-#habitatpic {
-  height: 131%;
-  max-height: 820px;
-  position: absolute;
-  left: 1085px;
-  top: 569px;
+#habitat-pic {
+  width: 100%;
+  margin-top: 78px;
 }
 
-#waterpic {
-  width: 40%;
-  max-width: 780px;
-  position: absolute;
-  left: 180px;
-  top: 870px;
+#habitat-pic2 {
+  width: 100%;
 }
 
-#suninfo {
+#sun-title {
+  margin-top: 160px;
+}
+
+#sun-info {
   font-size: 30px;
-  position: absolute;
-  left: 180px;
-  top: 1450px;
 }
 
-#suntext {
+#sun-text {
   font-size: 15px;
-  position: absolute;
-  top: 1510px;
-  left: 180px;
-  width: 40%;
 }
 
-#sunpic {
-  position: absolute;
-  left: 1085px;
-  top: 1479px;
-  width: 620px;
+#sun-pic {
+  margin-top: 180px;
 }
 
-#sunpic2 {
-  position: absolute;
-  top: 1750px;
-  left: 180px;
-  width: 749px;
+#sun-pic2 {
+  width: 100%;
+  padding-top: 30px;
 }
 
-#waterinfo {
-  font-size: 30px;
-  position: absolute;
-  top: 1925px;
-  left: 1085px;
+#water-title {
+  margin-top: 120px;
 }
 
-#watertext {
+#water-text {
   font-size: 15px;
-  position: absolute;
-  top: 1990px;
-  left: 1085px;
-  width: 35%;
+}
+
+#water-pic {
+  width: 100%;
+  margin-top: 157px;
+}
+
+#water-pic2 {
+  width: 100%;
+  margin-top: 25px;
 }
 /* MEDIA QUERIES */
 
-@@media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 700px) {
   .image {
     width: 300px;
     height:430px;
-    position: absolute;
-    top: 105px;
   }
-}
-
-@media only screen and (max-width: 700px) {
   #waterpic {
     width: 300px;
   }
@@ -113,24 +116,15 @@ body {
 @media only screen and (max-width: 1000px) {
   #habitatpic {
     height: 350px;
-    position: absolute;
-    left: 180px;
-    top: 1120px;
   }
 }
 @media only screen and (max-width: 900px) {
   #sunpic2 {
-    position: absolute;
-    left: 180px;
-    top: 1790px;
     width: 350px;
   }
 }
 @media only screen and (max-width: 900px) {
   #sunpic {
-    position: absolute;
-    left: 180px;
-    top: 2049px;
     width: 370px;
   }
 }
@@ -150,24 +144,15 @@ body {
   #title {
     color: white;
     width: 300px;
-    position: absolute;
-    top: 270px;
-    left:180px;
   }
 }
 @media only screen and (max-width: 1070px) {
   #waterinfo{
-    position: absolute;
-    top: 2281px;
-    left:180px;
   }
 }
 @media only screen and (max-width: 900px) {
   #watertext {
     font-size: 12px;
     width: 300px;
-    position: absolute;
-    left: 180px;
-    top: 2338px;
   }
-}
+} */
